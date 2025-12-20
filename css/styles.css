@@ -269,6 +269,10 @@ margin: 0 auto 48px;
     background-color: #2e2f42;
     padding: 100px 0;
 }
+.footer-logo {
+    display: block;
+    margin-bottom: 16px;
+}
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
