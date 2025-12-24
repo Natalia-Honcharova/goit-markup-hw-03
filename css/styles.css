@@ -19,7 +19,7 @@ margin: 0;
 a {
     text-decoration: none;
 }
-.conteiner {
+.container {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -27,7 +27,7 @@ a {
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
-.header-conteiner {
+.header-container {
     display: flex;
     align-items: center;
 }
@@ -93,7 +93,7 @@ a {
     color: #404bbf;
 }
 
-.hero-section {
+.hero {
     background-color: #2e2f42;
     padding: 188px 0;
     text-align: center;
@@ -138,7 +138,7 @@ margin: 0 auto 48px;
 }
 
 .features {
-    padding: 120px 0 200px;
+    padding: 120px 0;
 }
 .visually-hidden {
     position: absolute;
@@ -212,10 +212,10 @@ margin: 0 auto 48px;
                 0 1px 1px 0 rgba(46, 47, 66, 0.16), 
                 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     overflow: hidden;  
-    width: calc(( 100%-72px ) /4);
+    width: calc((100% - 72px) /4);
 }
 .team-content {
-    padding: 32px 0;
+    padding: 32px 16px;
     text-align: center;
 }
 
@@ -243,16 +243,19 @@ margin: 0 auto 48px;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.conteiner {
+.container {
     width: 1158px;
     margin:  0 auto;
     padding: 0 15px;
+}
+.portfolio {
+    padding: 120px 0;
 }
 .portfolio-title {
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -272,7 +275,6 @@ margin: 0 auto 48px;
         padding: 32px 16px;
 }
 .portfolio-item-title {
-    margin-top: 32px;
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
